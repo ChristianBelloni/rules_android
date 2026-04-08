@@ -192,7 +192,7 @@ use_repo(bazel_binaries, "bazel_binaries", "bazel_binaries_bazelisk", "build_baz
 apksig_extension = use_extension("//bzlmod_extensions:apksig.bzl", "apksig_extension")
 use_repo(apksig_extension, "apksig")
 
-extension for the legacy com_android_dex library
+# extension for the legacy com_android_dex library
 com_android_dex_extension = use_extension("//bzlmod_extensions:com_android_dex.bzl", "com_android_dex_extension")
 use_repo(com_android_dex_extension, "com_android_dex")
 
